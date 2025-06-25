@@ -1,0 +1,2 @@
+Sum = 9
+Product = 20
