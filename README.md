@@ -1,54 +1,55 @@
-# NewBieProject
+# Cpp NewBie Project
 
-A simple C++ project demonstrating basic mathematical operations and CMake configuration for beginners.
-
-## Project Structure
-
-```[language=C++]
-[root]/
-  ├── CMakeLists.txt    # CMake configuration file
-  ├── includes/         # Header files directory
-  │   ├── common.h      # Common includes and namespaces
-  │   └── math_utils.h  # Math utility function declarations
-  ├── README.md         # This file
-  ├── run.sh            # Build and run script
-  └── src/              # Source files directory
-      ├── main.cpp      # Main program entry point
-      └── math_utils.cpp # Math utility implementations
+```
+  _____ ____  ____     _   _                ____  _        ____            _           _   
+ / ____|  _ \|  _ \   | \ | |              |  _ \(_)      |  _ \ _ __ ___ (_) ___  ___| |_ 
+| |    | |_) | |_) |  |  \| | _____      __| |_) |_  ___  | |_) | '__/ _ \| |/ _ \/ __| __|
+| |    |  __/|  __/   | |\  |/ _ \ \ /\ / /|  _ <| |/ _ \ |  __/| | | (_) | |  __/ (__| |_ 
+| |____| |   | |      | | \ |  __/\ V  V / | |_) | |  __/ | |   | | | (_) | |  __/ (__| |_ 
+ \_____|_|   |_|      |_|  \_\___| \_/\_/  |____/|_|\___| |_|   |_|  \___/| |\___|\___|\__|
+                                                                         _/ |              
+                                                                        |__/               
 ```
 
-## Features
+## About This Project
 
-- Simple addition and multiplication functions
-- Two build options:
-  - Quick build with g++
-  - Professional build with CMake
+Cpp NewBie Project is a simple starter project designed for beginners learning C++ programming, CMake configuration, and proper project structuring. The project demonstrates basic mathematical operations, automated testing, and dual build systems.
 
-## Building and Running
+## 🌐 Language Selection
 
-The project includes a convenient shell script for building and running:
+Please select your preferred language documentation:
+
+- 🇺🇸 [English Documentation](README_EN.md) - Comprehensive guide in English
+- 🇻🇳 [Vietnamese Documentation / Tài liệu Tiếng Việt](README_VI.md) - Hướng dẫn đầy đủ bằng tiếng Việt
+
+## ⚡ Quick Start
 
 ```bash
-./run.sh
+# Clone this repository
+git clone https://github.com/yourusername/cpp-newbie-project.git
+cd cpp-newbie-project
+
+# Build and run using g++
+./run.sh g++
+
+# Or build with CMake
+./run.sh cmake
+
+# Run tests
+./run.sh test
 ```
 
-The script will present two options:
+## 🧪 Project Features
 
-- Quick build using g++
-- Professional build with CMake
+- Simple mathematical operations demo
+- Dual build system (g++ and CMake)
+- Automated testing framework
+- Clean project structure for beginners
 
-## Requirements
-
-- C++ compiler (g++ recommended)
-- CMake (version 3.10 or higher) for professional build
-
-## Implementation Details
-
-The project implements two basic mathematical functions:
-
-- `add(int a, int b)`: Returns the sum of two integers
-- `multiply(int a, int b)`: Returns the product of two integers
-
-## License
+## 📄 License
 
 This project is available for educational purposes.
+
+---
+
+*Made with ❤️ for C++ beginners*
